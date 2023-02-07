@@ -180,7 +180,15 @@ Write these results to a table that can be read by other programs, such as excel
 write.table(as.data.frame(Name_of_significant_results), file="what_to_call_the_new_file.txt", sep = "\t")
 ```
 
-Download this table and take a look at the table in Excel. Start  Explore the genes that are significant. This will be a good way to get a set of genes for further analysis (such as GO term analysis or comparing between two differential expression analyses using venn diagrams). Also, you can take a look at the expression of these genes in the different datasets using IGV.
+Download this table and take a look at the table in Excel. Start to explore the genes that are significant. This will be a good way to get a set of genes for further analysis (such as GO term analysis or comparing between two differential expression analyses using venn diagrams). Also, you can take a look at the expression of these genes in the different datasets using IGV.
+
+When you first open the results table in excel you will need to move the header values over one. With your lab partners discuss what each column is and write it here. Look at the Deseq2 resources and google on the internet if you are not sure:
+Column 1:
+log2FoldChange:
+lfcSE:
+stat:
+pvalue:
+padj:
 
 5.4 Visualize the results in R
 
