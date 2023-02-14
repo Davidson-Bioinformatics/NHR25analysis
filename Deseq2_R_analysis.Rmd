@@ -18,7 +18,7 @@ Much of bioinformatics analysis is preparing files to get them into the correct 
 
 Each quant file from Salmon needs to be in its own folder on this server. I would NOT keep these files in downloads because it can be hard to find again! First, set up your file structure:
 
-First make a folder that will have a folder with each of the quant files in it. In the folder "BIO343" (where this Rmarkdown is) click "New Folder" and name it “salmon_quant” (do not use spaces when naming your folders). Within this folder make 6 other folders for each samples name: wildtype_1, wildtype_2, wildtype_3, ku217_1, ku217_2, ku217_3. 
+First make a folder that will have a folder with each of the quant files in it. In the folder "NHR25analysis" (where this Rmarkdown is) click "New Folder" and name it “salmon_quant” (do not use spaces when naming your folders). Within this folder make 6 other folders for each samples name: wildtype_1, wildtype_2, wildtype_3, ku217_1, ku217_2, ku217_3. 
 
 Download the salmon quant files from Galaxy using the floppy disk downloads button. Using the upload button, upload each salmon quant file to the appropriate directory (match the index on the file with the sample name). Once the quant file is in its sample-specific directory, all the files must have the same name. Rename each one to: “quant.sf” (this is the name and file structure Salmon would have given the files if Salmon had been run locally on your computer). 
 
